@@ -4,6 +4,8 @@
 class Part {
   public:
     const int pin;
+
+    virtual ~Part() = default;
     virtual void init() = 0;
 
   private:
