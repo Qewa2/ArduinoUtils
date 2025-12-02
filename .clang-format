@@ -199,7 +199,7 @@ ObjCBreakBeforeNestedBlockParam: true
 ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: true
 PackConstructorInitializers: BinPack
-PenaltyBreakAssignment: 2
+PenaltyBreakAssignment: 0
 PenaltyBreakBeforeFirstCallParameter: 19
 PenaltyBreakBeforeMemberAccess: 150
 PenaltyBreakComment: 300
@@ -275,7 +275,7 @@ StatementMacros:
   - QT_REQUIRE_VERSION
 TableGenBreakInsideDAGArg: DontBreak
 TabWidth:        8
-UseTab:          Never
+UseTab:          Always
 VerilogBreakBetweenInstancePorts: true
 WhitespaceSensitiveMacros:
   - BOOST_PP_STRINGIZE
