@@ -2,13 +2,13 @@
 #define PARTS_HPP
 
 class Part {
-  public:
-    const int pin;
+public:
+  const int pin;
 
-    virtual ~Part() = default;
-    virtual void init() = 0;
+  virtual ~Part() = default;
+  virtual void init() = 0;
 
-  private:
+private:
 };
 
 #endif // !PARTS_HPP
