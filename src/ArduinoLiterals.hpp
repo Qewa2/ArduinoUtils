@@ -20,9 +20,7 @@
         {                                                                      \
         }
 
-#define digitalRead(x)                                                         \
-        {                                                                      \
-        }
+#define digitalRead(x) (HIGH)
 
 #endif
 

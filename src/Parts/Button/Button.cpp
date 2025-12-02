@@ -8,18 +8,19 @@ void Button::init() { pinMode(pin, INPUT_PULLUP); }
 void Button::update()
 {
         m_previousIsPressed = m_isPressed;
-        if (digitalRead(pin) == LOW)){
-        m_isPressed = true;
-    }
+        if (digitalRead(pin) == LOW)
+        {
+                m_isPressed = true;
+        }
         else if (digitalRead(pin) == HIGH)
         {
                 m_isPressed = false;
         }
 }
 
-bool isPressed() { return m_isPressed; }
+bool Button::isPressed() { return m_isPressed; }
 
-bool isJustPressed()
+bool Button::isJustPressed()
 {
         if (m_isPressed == true && m_previousIsPressed == false)
         {
@@ -31,7 +32,7 @@ bool isJustPressed()
         }
 }
 
-bool isJustReleased()
+bool Button::isJustReleased()
 {
         if (m_isPressed == false && m_previousIsPressed == true)
         {
