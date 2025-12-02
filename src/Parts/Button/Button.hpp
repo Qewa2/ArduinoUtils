@@ -15,6 +15,7 @@ class Button : public Part
         bool isJustPressed();
         bool isJustReleased();
 
+    private:
         bool m_isPressed         = false;
         bool m_previousIsPressed = false;
 };
