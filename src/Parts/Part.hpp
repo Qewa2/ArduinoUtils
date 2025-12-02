@@ -8,8 +8,6 @@ class Part
 
         virtual ~Part()     = default;
         virtual void init() = 0;
-
-    private:
 };
 
 #endif // !PARTS_HPP
