@@ -9,7 +9,7 @@ class Led : public Part
         bool isLit = false;
         int pin;
 
-        Led(int Pin) : pin(Pin) {}
+        Led(int Pin);
         virtual void init() override;
         void light();
         void extinguish();

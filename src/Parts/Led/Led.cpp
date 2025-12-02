@@ -1,21 +1,7 @@
 #include "Led.hpp"
+#include "../../ArduinoLiterals.hpp"
 
-#define ARDUINO_LITERALS
-#ifdef ARDUINO_LITERALS
-#define OUTPUT
-
-#define HIGH 1
-
-#define LOW 0
-
-#define pinMode(x, y)                                                          \
-        {                                                                      \
-        }
-#define digitalWrite(x, y)                                                     \
-        {                                                                      \
-        }
-
-#endif
+Led::Led(int Pin) : pin(Pin) {}
 
 void Led::init() { pinMode(pin, OUTPUT); }
 
