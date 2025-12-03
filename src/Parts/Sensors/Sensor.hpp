@@ -1,5 +1,5 @@
-#ifndef SENSORS_HPP
-#define SENSORS_HPP
+#ifndef SENSOR_HPP
+#define SENSOR_HPP
 
 #include "../Part.hpp"
 
@@ -11,4 +11,4 @@ class Sensor : public Part
         virtual float measureRaw() = 0;
 };
 
-#endif // !SENSORS_HPP
+#endif // !SENSOR_HPP
