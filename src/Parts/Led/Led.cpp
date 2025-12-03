@@ -7,25 +7,27 @@ void Led::init() { pinMode(pin, OUTPUT); }
 
 void Led::light()
 {
-        isLit = true;
+        m_isLit = true;
         digitalWrite(pin, HIGH);
 }
 
 void Led::extinguish()
 {
-        isLit = false;
+        m_isLit = false;
         digitalWrite(pin, LOW);
 }
 
 void Led::switchState()
 {
-        isLit = !isLit;
-        if (isLit == true)
+        m_isLit = !m_isLit;
+        if (m_isLit == true)
         {
                 digitalWrite(pin, HIGH);
         }
-        else if (isLit == false)
+        else if (m_isLit == false)
         {
                 digitalWrite(pin, LOW);
         }
 }
+
+bool Led::isLit() { return m_isLit; }

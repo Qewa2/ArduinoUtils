@@ -20,6 +20,10 @@
         {                                                                      \
         }
 
+#define analogWrite(x, y)                                                      \
+        {                                                                      \
+        }
+
 #define noTone(x, y)                                                           \
         {                                                                      \
         }

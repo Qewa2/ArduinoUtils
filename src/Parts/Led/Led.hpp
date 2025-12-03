@@ -6,7 +6,6 @@
 class Led : public Part
 {
     public:
-        bool isLit = false;
         int pin;
 
         Led(int Pin);
@@ -14,6 +13,10 @@ class Led : public Part
         void light();
         void extinguish();
         void switchState();
+        bool isLit();
+
+    private:
+        bool m_isLit = false;
 };
 
 #endif

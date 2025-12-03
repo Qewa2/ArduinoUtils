@@ -1,4 +1,3 @@
-#include "../../ArduinoLiterals.hpp"
 #include "../Part.hpp"
 
 class Piezo : public Part
