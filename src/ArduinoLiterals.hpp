@@ -20,19 +20,14 @@
         {                                                                      \
         }
 
-#define tone(x, y)                                                             \
-        {                                                                      \
-        }
-
-#define tone(x, y, z)                                                          \
-        {                                                                      \
-        }
-
 #define noTone(x, y)                                                           \
         {                                                                      \
         }
 
 #define digitalRead(x) (HIGH)
+
+inline void tone(int pin, int frequency) {}
+inline void tone(int pin, int frequency, int length) {}
 
 #endif
 
