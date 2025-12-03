@@ -20,6 +20,18 @@
         {                                                                      \
         }
 
+#define tone(x, y)                                                             \
+        {                                                                      \
+        }
+
+#define tone(x, y, z)                                                          \
+        {                                                                      \
+        }
+
+#define noTone(x, y)                                                           \
+        {                                                                      \
+        }
+
 #define digitalRead(x) (HIGH)
 
 #endif
