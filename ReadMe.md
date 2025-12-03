@@ -1,6 +1,6 @@
 # Arduino Utils
 **A Framework for Arduino** 
-*because i hate the standart library of arduino*
+<small>*because i hate the standart library of arduino*</small>
 
 ## Parts
 ### Sensors
