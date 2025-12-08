@@ -1,5 +1,4 @@
 #include "Piezo.hpp"
-#include "../../ArduinoLiterals.hpp"
 
 Piezo::Piezo(int pin) : pin(pin) {}
 

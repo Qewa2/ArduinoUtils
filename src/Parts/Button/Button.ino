@@ -1,4 +1,3 @@
-#include "../../ArduinoLiterals.hpp"
 #include "Button.hpp"
 
 Button::Button(int pin) : pin(pin) {}

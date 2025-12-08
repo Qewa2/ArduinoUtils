@@ -1,0 +1,6 @@
+#include "src/Parts/Button/Button.hpp"
+#include "src/Parts/Led/Led.hpp"
+#include "src/Parts/Led/RGBLed/RGBLed.hpp"
+#include "src/Parts/Part.hpp"
+#include "src/Parts/Piezo/Piezo.hpp"
+#include "src/Parts/Sensors/Sensor.hpp"

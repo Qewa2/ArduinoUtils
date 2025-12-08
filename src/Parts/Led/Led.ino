@@ -1,5 +1,4 @@
 #include "Led.hpp"
-#include "../../ArduinoLiterals.hpp"
 
 Led::Led(int Pin) : pin(Pin) {}
 

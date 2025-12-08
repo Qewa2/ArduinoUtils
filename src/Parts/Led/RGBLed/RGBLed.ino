@@ -1,5 +1,4 @@
 #include "RGBLed.hpp"
-#include "../../../ArduinoLiterals.hpp"
 
 RGBLed::RGBLed(int rPin, int gPin, int bPin)
     : rPin(rPin), gPin(gPin), bPin(bPin)
